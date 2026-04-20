@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 # Proyecto : Recursos humanos
 
 ## Dataset
@@ -9,9 +8,9 @@
 - **Registros:** 15000
 - **Variables:** 10
 
-Grupo 5
 
-## Integrantes
+## Integrantes: 
+Grupo 5
 
 | Nombre               | Rol                                    | GitHub        |
 |----------------------|----------------------------------------|---------------|
