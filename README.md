@@ -1,5 +1,11 @@
 # Proyecto : Recursos humanos
-## Dataset: https://www.kaggle.com/datasets/giripujar/hr-analytics
+
+## Dataset
+- **Nombre:** HR Analytics
+- **Fuente:** Kaggle
+- **Link:** https://www.kaggle.com/datasets/giripujar/hr-analytics
+- **Registros:** 15000
+- **Variables:** 10
 
 Grupo 5
 
@@ -11,6 +17,22 @@ Grupo 5
 | Juan Manuel Valencia | Fase                                   | @Juanchos2905 |
 | Ziuvar Ruiz          | Fase                                   | @ziuvar       |
 | Juan Cardona         | Fase                                   | @jcardser     |
+
+## Estructura del repositorio 
+
+Data-Analysis-3/
+├─ data/
+│  ├─ raw/              # Dataset original de Kaggle 
+│  └─ processed/        # CSV limpio listo para BI / pruebas
+├─ notebooks/
+│  ├─ 01_eda_preparacion.ipynb
+│  ├─ 02_hipotesis_pruebas.ipynb
+│  └─ 03_kpis_export_dashboard.ipynb
+├─ dashboard/
+│  ├─ hr_dashboard.pbix # 
+│  └─ capturas/         # Screenshots del tablero para el README
+├─ README.md
+
 
 # Descripción del contexto 
 
