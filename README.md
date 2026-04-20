@@ -19,11 +19,11 @@ Grupo 5
 | Juan Cardona         | Fase                                   | @jcardser     |
 
 ## Estructura del repositorio 
-
+```
 Data-Analysis-3/
 ├─ data/
-│  ├─ raw/              # Dataset original de Kaggle 
-│  └─ processed/        # CSV limpio listo para BI / pruebas
+│  ├─ raw_hr_analytics.csv              # Dataset original de Kaggle 
+│  └─ clean_hr_analytics.csv            # CSV limpio listo para BI / pruebas
 ├─ notebooks/
 │  ├─ 01_eda_preparacion.ipynb
 │  ├─ 02_hipotesis_pruebas.ipynb
@@ -32,7 +32,7 @@ Data-Analysis-3/
 │  ├─ hr_dashboard.pbix # 
 │  └─ capturas/         # Screenshots del tablero para el README
 ├─ README.md
-
+```
 
 # Descripción del contexto 
 
