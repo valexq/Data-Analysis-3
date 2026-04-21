@@ -34,6 +34,9 @@ Data-Analysis-3/
 │  └─ capturas/         # Screenshots del tablero para el README
 ├─ README.md
 ```
+
+## Objetivo
+El presente análisis tiene como objetivo identificar patrones, tendencias y relaciones estadísticas que permitan detectar anticipadamente qué empleados tienen mayor riesgo de irse, reducir la rotación y promover la movilidad promocional, proporcionando al área de Recursos Humanos información basada en evidencia para tomar decisiones estratégicas de retención de sus empleados.
 ## Contexto del dataset
 El proyecto utiliza un conjunto de datos de analítica de Recursos Humanos (HR Analytics) que contiene información de empleados de una empresa, incluyendo su nivel de satisfacción, desempeño en la última evaluación, número de proyectos, horas promedio trabajadas al mes, años en la compañía, departamento, salario, promoción en los últimos cinco años y si han dejado la empresa o no (variable de rotación). Cada fila del dataset representa a un empleado y permite analizar cómo diferentes características laborales y organizacionales se relacionan con la decisión de permanecer en la empresa o abandonarla.
 
@@ -77,8 +80,7 @@ La empresa está enfrentando una alta rotación de empleados en los últimos mes
 - **Prueba estadística:** chi-cuadrado de independencia.
 - **Justificación:** Esta hipótesis es relevante porque permite identificar si los empleados que se van o se quedan han tenido una promoción, lo que nos muestra un panorama de la política de crecimiento interno de la empresa y el riesgo de perder experiencia y conocimiento acumulado difícil de reemplazar. Si se confirma que existe una relación entre la promoción en los últimos cinco años y la rotación, el área de Recursos Humanos podría implementar cursos de capacitación, programas de desarrollo profesional y mentorías internas con el fin de promover la movilidad promocional.
 
-# Objetivo
-El presente análisis tiene como objetivo identificar patrones, tendencias y relaciones estadísticas que permitan detectar anticipadamente qué empleados tienen mayor riesgo de irse, reducir la rotación y promover la movilidad promocional, proporcionando al área de Recursos Humanos información basada en evidencia para tomar decisiones estratégicas de retención de sus empleados.
+
 
 
 
