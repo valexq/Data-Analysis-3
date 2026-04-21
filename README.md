@@ -68,11 +68,11 @@ La empresa está enfrentando una alta rotación de empleados en los últimos mes
 - **H0:** No existe asociación entre el salario y la rotación
 - **H1:** Los empleados con salario bajo tienen mayor probabilidad de abandonar la empresa que los empleados con salario medio y alto
 - **Variables:**
-  -`salary`
+  - `salary`
     - bajo
     - medio
     - alto
-  -`left`
+  - `left`
     - 0 = se queda
     - 1 = se va
 - **Tipo de variables:** Categóricas
@@ -83,7 +83,7 @@ La empresa está enfrentando una alta rotación de empleados en los últimos mes
 - **H0:** No existe asociación entre la promoción en los últimos cinco años y la rotación
 - **H1:** Los empleados que no han sido promovidos en los últimos cinco años tienen mayor probabilidad de abandonar la empresa frente a quienes sí han sido promovidos
 - **Variables:**
-  -`promotion_last_5years`
+  - `promotion_last_5years`
     - 0 = no promovido
     - 1 = promovido
   - `left`
