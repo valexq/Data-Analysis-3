@@ -54,13 +54,13 @@ La empresa está enfrentando una alta rotación de empleados en los últimos mes
 - **H0:** No existe asociación entre el nivel de satisfacción del empleado y la rotación
 - **H1:** Los empleados con un nivel de satisfacción por debajo de la mediana tienen mayor probabilidad de abandonar la empresa
 - **Variables:**
--- `satisfaction_level` (según la mediana del dataset)
-  - bajo
-  - alto 
-- `left`
-  - 0 = se queda
-  - 1 = se va
-- **Tipo de variables:** categóricas
+  - `satisfaction_level` (según la mediana del dataset)
+    - bajo
+    - alto 
+  - `left`
+    - 0 = se queda
+    - 1 = se va
+- **Tipo de variables:** Categóricas
 - **Prueba estadística:** chi-cuadrado de independencia.
 - **Justificación:** Esta hipótesis es relevante porque permite identificar anticipadamente qué empleados tienen baja satisfacción y mayor riesgo de irse, ya que puede costarle a la empresa tiempo de reclutamiento,tiempo de entrenamiento del nuevo empleado y productividad perdida mientras el puesto está vacío. Si se confirma que existe una relación entre satisfacción baja y rotación, el área de Recursos Humanos podría implementar programas de bienestar, bonificaciones y/o reconocimientos con el fin de mejorar la satisfacción del empleado.
 
@@ -68,14 +68,14 @@ La empresa está enfrentando una alta rotación de empleados en los últimos mes
 - **H0:** No existe asociación entre el salario y la rotación
 - **H1:** Los empleados con salario bajo tienen mayor probabilidad de abandonar la empresa que los empleados con salario medio y alto
 - **Variables:**
--- `salary`
-  - bajo
-  - medio
-  - alto
-- `left`
-  - 0 = se queda
-  - 1 = se va
-- **Tipo de variables:** categóricas
+  -`salary`
+    - bajo
+    - medio
+    - alto
+  -`left`
+    - 0 = se queda
+    - 1 = se va
+- **Tipo de variables:** Categóricas
 - **Prueba estadística:** chi-cuadrado de independencia.
 - **Justificación:** Esta hipótesis es relevante porque permite identificar qué tipo de salario reciben los empleados que se quedan en comparación con los que se van, lo que refleja si la empresa es competitiva en el mercado laboral. Si se confirma que existe una relación entre el salario y rotación, el área de Recursos Humanos podría implementar ajustes de compensación por mercado y política de incrementos salariales periódicos con el fin de reducir la rotación.
 
@@ -83,13 +83,13 @@ La empresa está enfrentando una alta rotación de empleados en los últimos mes
 - **H0:** No existe asociación entre la promoción en los últimos cinco años y la rotación
 - **H1:** Los empleados que no han sido promovidos en los últimos cinco años tienen mayor probabilidad de abandonar la empresa frente a quienes sí han sido promovidos
 - **Variables:**
-- `promotion_last_5years`
-  - 0 = no promovido
-  - 1 = promovido
-- `left`
-  - 0 = se queda
-  - 1 = se va
-- **Tipo de variables:** categóricas
+  -`promotion_last_5years`
+    - 0 = no promovido
+    - 1 = promovido
+  - `left`
+    - 0 = se queda
+    - 1 = se va
+- **Tipo de variables:** Categóricas
 - **Prueba estadística:** chi-cuadrado de independencia.
 - **Justificación:** Esta hipótesis es relevante porque permite identificar si los empleados que se van o se quedan han tenido una promoción, lo que nos muestra un panorama de la política de crecimiento interno de la empresa y el riesgo de perder experiencia y conocimiento acumulado difícil de reemplazar. Si se confirma que existe una relación entre la promoción en los últimos cinco años y la rotación, el área de Recursos Humanos podría implementar cursos de capacitación, programas de desarrollo profesional y mentorías internas con el fin de promover la movilidad promocional.
 
