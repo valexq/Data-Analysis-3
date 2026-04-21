@@ -5,7 +5,7 @@
 - **Nombre:** HR Analytics
 - **Fuente:** Kaggle
 - **Link:** https://www.kaggle.com/datasets/giripujar/hr-analytics
-- **Registros:** 15000
+- **Registros:** 14999
 - **Variables:** 10
 
 
@@ -99,6 +99,11 @@ carga laboral sería un factor indirecto de rotación
 
 
 # Resultados
+1. Aunque se esperaba que más horas trabajadas redujeran la satisfacción, la correlación encontrada fue muy débil (r = -0.02), lo que sugiere que la carga laboral medida en horas no es el principal driver de insatisfacción en esta empresa.
+2. Se encontró una asociación estadísticamente significativa entre el nivel de satisfacción y la rotación (χ² = 1101.57, p < 0.05). Los empleados con satisfacción por debajo de la mediana presentan mayor proporción de rotación (2612 vs 959), lo que sugiere que la satisfacción laboral es un factor relevante en la decisión de abandonar la empresa.
+3. Se encontró una asociación estadísticamente significativa entre el nivel salarial y la rotación (χ² = 381.22, p < 0.05). Los empleados con salario bajo presentan la mayor proporción de rotación (2172 salidas), seguidos por salario medio (1317) y salario alto (82), lo que sugiere que la compensación salarial es un factor relevante en la decisión de abandonar la empresa.
+
+# Conclusiones
 
 # Conclusiones 
 
