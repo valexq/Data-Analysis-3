@@ -1,0 +1,6 @@
+kpi,valor,unidad,interpretacion,relacion
+Tasa de rotacion general,23.81,%,Porcentaje total de empleados que abandonaron la empresa.,Indicador ejecutivo principal.
+Empleados analizados,14999.0,empleados,Total de registros usados en el analisis.,Base del dashboard.
+Satisfaccion promedio,0.613,indice 0-1,Nivel medio de satisfaccion laboral.,H1 y H2.
+Rotacion con satisfaccion baja,35.61,%,Riesgo de salida en empleados con satisfaccion baja.,H2.
+Rotacion con salario bajo,29.69,%,Riesgo de salida en empleados con salario bajo.,H3.
