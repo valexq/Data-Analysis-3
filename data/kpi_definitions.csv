@@ -1,6 +1,9 @@
-kpi,valor,unidad,interpretacion,relacion
-Tasa de rotacion general,23.81,%,Porcentaje total de empleados que abandonaron la empresa.,Indicador ejecutivo principal.
-Empleados analizados,14999.0,empleados,Total de registros usados en el analisis.,Base del dashboard.
-Satisfaccion promedio,0.613,indice 0-1,Nivel medio de satisfaccion laboral.,H1 y H2.
-Rotacion con satisfaccion baja,35.61,%,Riesgo de salida en empleados con satisfaccion baja.,H2.
-Rotacion con salario bajo,29.69,%,Riesgo de salida en empleados con salario bajo.,H3.
+kpi,valor,unidad,justificacion_negocio,hipotesis_relacionadas,interpretacion,soporte_dashboard
+Tasa de rotacion general,23.81,%,Resume el nivel total de salida y sirve para seguir el riesgo global de retencion.,"H2, H3 y H4.",Casi una cuarta parte de los empleados abandono la empresa.,Tarjeta ejecutiva de tasa de rotacion.
+Satisfaccion promedio,0.613,indice 0-1,Monitorea el clima laboral agregado que puede anticipar deterioro en permanencia.,H1 y H2.,El nivel medio de satisfaccion es moderado y debe vigilarse junto con la rotacion.,Tarjeta ejecutiva y dispersion horas vs satisfaccion.
+Horas mensuales promedio,201.1,horas,Controla la carga laboral promedio como variable operativa asociada al desgaste.,H1 y H4.,La carga mensual promedio es alta y conviene leerla como variable de contexto laboral.,"Tarjeta ejecutiva, dispersion horas vs satisfaccion y visuales por departamento."
+Rotacion con satisfaccion baja,35.61,%,Identifica el segmento prioritario para acciones de clima y acompanamiento.,H2.,Los empleados con satisfaccion baja muestran un riesgo de salida claramente superior al promedio.,Grafico de rotacion por satisfaccion.
+Brecha de rotacion por satisfaccion,23.1,p.p.,Cuantifica el impacto de la satisfaccion en la salida y facilita priorizar intervenciones.,H2.,La distancia entre empleados con satisfaccion baja y alta confirma una brecha de riesgo relevante.,Tarjeta ejecutiva y grafico de rotacion por satisfaccion.
+Rotacion con salario bajo,29.69,%,Mide el riesgo de fuga en el segmento mas sensible a compensacion.,H3.,El salario bajo concentra una rotacion mayor que el promedio general.,Tarjeta ejecutiva y grafico de rotacion por salario.
+Brecha salario bajo vs alto,23.06,p.p.,Dimensiona el costo relativo de no intervenir las diferencias de compensacion.,H3.,La diferencia de salida entre salario bajo y alto evidencia una brecha fuerte de retencion.,Grafico de rotacion por salario.
+Rotacion en alta carga laboral,37.31,%,Activa una alerta operativa sobre equipos con exigencia alta aunque H4 no se confirme a nivel departamental.,H1 y H4.,La alta carga laboral concentra una salida elevada y debe monitorearse como senal preventiva.,Grafico de rotacion por carga laboral.
