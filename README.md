@@ -129,10 +129,14 @@ Visualizaciones centrales del dashboard:
 - Matriz ejecutiva por departamento.
 
 Hallazgos principales:
+- Los empleados con satisfacción por debajo de la mediana tienen aproximadamente el triple de probabilidad de abandonar la empresa 
+en comparación con quienes tienen satisfacción alta, lo que sugiere que intervenir el clima laboral podría reducir 
+significativamente la rotación.
+- Los empleados con salario bajo tienen aproximadamente 4.5 veces más probabilidad de abandonar la empresa que los de salario alto, 
+lo que sugiere que una política de revisión salarial podría reducir significativamente la rotación en este segmento.
+- 
+La relacion entre horas y satisfaccion existe, pero es muy debil en terminos practicos.
 
-- La relacion entre horas y satisfaccion existe, pero es muy debil en terminos practicos.
-- La satisfaccion baja se asocia fuertemente con la rotacion.
-- El salario bajo tambien se asocia con mayor salida de empleados.
 - No hay evidencia estadistica para afirmar que los departamentos con mas horas promedio sean los de mayor rotacion.
 
 ## Conclusiones
