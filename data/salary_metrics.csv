@@ -1,0 +1,4 @@
+salary,salary_label,salary_order,employees,left_count,turnover_rate,avg_satisfaction,avg_monthly_hours,turnover_rate_pct
+low,Bajo,1,7316,2172,0.2968835429196282,0.601,201.0,29.69
+medium,Medio,2,6446,1317,0.20431275209432206,0.622,201.3,20.43
+high,Alto,3,1237,82,0.06628940986257073,0.637,199.9,6.63

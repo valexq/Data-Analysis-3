@@ -1,0 +1,2 @@
+raw_rows,clean_rows,columns_raw,columns_clean,missing_total,duplicated_rows_detected,duplicated_rows_after_first,duplicated_rows_in_groups,duplicated_rows_removed,satisfaction_median,hours_q1,hours_q3
+14999,14999,10,21,0,3008,3008,5346,0,0.64,156.0,245.0
