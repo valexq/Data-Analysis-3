@@ -46,6 +46,10 @@ Data-Analysis-3/
 ├─ dashboard/
 │  ├─ hr_dashboard.pbix
 │  └─ visualizaciones/
+|                    ├─h1_horas_vs_satisfaccion.png
+|                    ├─h2_satisfaccion_vs_rotacion.png
+|                    ├─h3_salario_vs_rotacion.png
+|                    ├─h4_departamento_mashoras_vs_mayor_rotacion.png
 ├─ reports/
 │  ├─ auditoria_limpieza.csv
 │  ├─ resultados_hipotesis.csv
@@ -55,7 +59,6 @@ Data-Analysis-3/
 ```
 
 ## Contexto del dataset
-
 
 El proyecto utiliza el conjunto de datos HR Analytics disponible en Kaggle, que contiene información de 14,999 empleados con 
 10 variables, incluyendo nivel de satisfacción, desempeño en la última evaluación, número de proyectos, horas promedio trabajadas 
@@ -72,7 +75,7 @@ y el riesgo de insatisfacción, así como retrasos en proyectos, mayores costos 
 servicio ofrecido por la organización.
 
 
-## Metodologia
+## Metodología
 
 1. Se definió el problema de negocio y se formularon 4 preguntas clave sobre rotación, satisfacción, salario y carga laboral.
 2. Se plantearon 4 hipótesis con H0 y H1 explícitas, justificadas desde negocio y validadas con pruebas de Pearson, chi-cuadrado 
@@ -156,11 +159,11 @@ equipos específicos. Si se confirma, RRHH podría alertar a los líderes de cad
 
 ## Trazabilidad de entregables:
 
-| Entregable | Archivo base | Como se obtiene |
+| Entregable | Archivo base | Cómo se obtiene |
 | --- | --- | --- |
 | Dataset limpio | `data/clean_hr_analytics.csv` | Se genera desde `data/raw_hr_analytics.csv` en `01_eda_preparacion.ipynb`. |
 | Resultados estadisticos | `reports/resultados_hipotesis.csv` | Se generan en `02_hipotesis_pruebas.ipynb`. H4 se calcula con promedios exactos por departamento antes del redondeo. |
-| KPIs de negocio | `data/kpi_definitions.csv` | Se generan en `03_kpis_export_dashboard.ipynb` con justificacion de negocio, relacion con hipotesis e indicador de soporte en el dashboard. |
+| KPIs de negocio | `data/kpi_definitions.csv` | Se generan en `03_kpis_export_dashboard.ipynb` con justificación de negocio, relación con hipótesis e indicador de soporte en el dashboard. |
 | Dashboard ejecutivo | `dashboard/hr_dashboard.pbix` | Se construye en Power BI con `data/clean_hr_analytics.csv`, sin cambiar nombres de variables ya usadas. |
 
 ## Resultados
